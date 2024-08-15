@@ -1,0 +1,1 @@
+这是我写的第一个项目，目标是熟悉avaloniaui和C# 的waapi的使用
