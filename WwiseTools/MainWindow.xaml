@@ -1,0 +1,48 @@
+﻿<Window x:Class="WwiseTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WwiseTools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10,10,592,0">
+
+            <TextBox x:Name="PortInput" 
+                     Text="8080" 
+                     Width="150" Height="25" TextChanged="PortInput_TextChanged" FontSize="16"
+                     />
+            <Button  x:Name="ConnectButton" 
+                     Content="连接" 
+                     Width="100"
+                     Click="ConnectButton_Click" RenderTransformOrigin="0.503,2.277" Height="33" 
+                    />
+            <TextBox x:Name="ConnectionStatusTextBlock" 
+                     Text="等待连接..." Height="323" TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     
+                     IsReadOnly="True" Width="164"
+                     />
+        </StackPanel>
+        <StackPanel Margin="210,5,300,10">
+            <TextBlock Text="输入要复制的GUID:"/>
+            <TextBox x:Name="Be_copied_guid" >
+                
+            </TextBox>
+            <Button x:Name="searchButton" 
+                     Content="查找" 
+                     Width="131" Height="33" 
+                     Click="SearchButton_Click"
+                     RenderTransformOrigin="0.503,2.277" />
+            <TextBlock Text="输入复制目标的GUID:"/>
+            <TextBox x:Name="Select" Height="164" AcceptsReturn="True" />
+            <Button x:Name="copybutton" Content="复制" Height="30" Width="130" Click="copybutton_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="408" Margin="534,11,0,0" VerticalAlignment="Top" Width="256">
+            <Button Content="获取event" Height="41" Width="137" Click="Button_Click"/>
+            <Button Content="获取对应bank" Height="41" Width="137" Click="Button_Click_1"/>
+            <Button Content="生成表格" Height="41" Width="137" Click="ButtonBase_OnClick"/>
+        </StackPanel>
+    </Grid>
+</Window>
