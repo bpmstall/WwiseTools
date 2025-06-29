@@ -1,16 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WwiseTools", "WwiseTools\WwiseTools.csproj", "{C0E4C9E8-5131-43C2-A366-F1909686A8F3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WwiseTools", "WwiseTools\WwiseTools.csproj", "{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0E4C9E8-5131-43C2-A366-F1909686A8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0E4C9E8-5131-43C2-A366-F1909686A8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0E4C9E8-5131-43C2-A366-F1909686A8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0E4C9E8-5131-43C2-A366-F1909686A8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Debug|x64.ActiveCfg = Release|x64
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Debug|x64.Build.0 = Release|x64
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Release|x64.ActiveCfg = Release|x64
+		{D02C1552-F2A8-2A2B-BB8A-87CCBBBEB08C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C972659-F767-4B7C-8EDD-9F9CDC889C66}
 	EndGlobalSection
 EndGlobal
