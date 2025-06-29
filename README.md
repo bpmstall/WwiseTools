@@ -1,1 +1,3 @@
-这是我写的第一个项目，目标是熟悉avaloniaui和C# 的waapi的使用
+这是我写的一个用于实现rtpc的批量复制和获取wwise项目中event和对应bank并生成表格的功能的wpf工具
+在wwise按住键盘shift键多选可以同时获得选中object的guid
+直接复制进guid文本框里即可
